@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "rss": {
+      "command": "/opt/rss-venv/bin/rss-mcp",
+      "args": ["--db", "/var/lib/rss-mcp/feeds.db", "--transport", "stdio", "--log-level", "INFO"],
+      "env": {
+        "RSS_MCP_ALLOW_PRIVATE_HOSTS": "0",
+        "RSS_MCP_MAX_ENTRIES_PER_FEED": "500"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.venv/
+.venv*
+build/
+data/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.git/
+.gitignore
+.env
+*.db
+*.db-wal
+*.db-shm
