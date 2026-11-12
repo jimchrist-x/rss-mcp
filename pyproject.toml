@@ -25,6 +25,11 @@ dependencies = [
 [project.scripts]
 rss-mcp = "rss_mcp.server:main"
 
+[project.urls]
+Homepage = "https://github.com/jimchrist-x/rss-mcp"
+Repository = "https://github.com/jimchrist-x/rss-mcp"
+Issues = "https://github.com/jimchrist-x/rss-mcp/issues"
+
 [dependency-groups]
 dev = [
   "pytest>=8.0",
